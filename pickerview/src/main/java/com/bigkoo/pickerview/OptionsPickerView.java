@@ -17,7 +17,7 @@ import java.util.ArrayList;
  */
 public class OptionsPickerView<T> extends BasePickerView implements View.OnClickListener {
     WheelOptions<T> wheelOptions;
-    private View btnSubmit, btnCancel;
+    public View btnSubmit, btnCancel;
     private TextView tvTitle;
     private OnOptionsSelectListener optionsSelectListener;
     private static final String TAG_SUBMIT = "submit";
