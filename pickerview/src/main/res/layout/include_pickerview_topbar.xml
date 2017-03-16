@@ -16,8 +16,9 @@
             android:layout_weight="2"
             android:background="@drawable/bg_button"
             android:gravity="center"
-            android:text="@string/pickerview_cancel"
-            android:textColor="@drawable/selector_pickerview_btn"
+            android:textAllCaps="false"
+            android:text="Cancel"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/pickerview_topbar_btn_textsize"/>
 
         <TextView
@@ -29,6 +30,8 @@
             android:layout_toRightOf="@+id/btnCancel"
             android:layout_weight="3"
             android:gravity="center"
+            android:textStyle="bold"
+            android:text="Set Frequency"
             android:textColor="@color/pickerview_topbar_title"
             android:textSize="@dimen/pickerview_topbar_title_textsize"/>
 
@@ -40,8 +43,9 @@
             android:layout_weight="2"
             android:background="@drawable/bg_button"
             android:gravity="center"
-            android:text="@string/pickerview_submit"
-            android:textColor="@drawable/selector_pickerview_btn"
+            android:textAllCaps="false"
+            android:text="Done"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/pickerview_topbar_btn_textsize"/>
     </LinearLayout>
 
